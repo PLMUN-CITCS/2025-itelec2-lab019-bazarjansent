@@ -11,12 +11,13 @@ def calculate_grade(score):
     else:
         return "F"
 
+
 # Main program
 if __name__ == "__main__":
     try:
         # Ask the user to enter their score
         score = float(input("Enter your score: "))
-        
+
         # Validate the score
         if 0 <= score <= 100:
             # Calculate the grade
